@@ -1,6 +1,7 @@
-from tkinter import Tk, Frame, BOTH
+from tkinter import Tk
 
 from GUI import GUI
+
 
 def main():
     """"Run program"""
