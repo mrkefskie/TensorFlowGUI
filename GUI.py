@@ -5,7 +5,7 @@ from tkinter import messagebox
 
 from os import listdir
 
-from PIL import Image, ImageTk
+from PIL import ImageTk
 
 class GUI(Frame):
     """This class will handle all the input and output to the GUI"""
@@ -14,14 +14,13 @@ class GUI(Frame):
         Frame.__init__(self, parent, background="white")
         self.parent = parent
 
-        self.opener = ImageOpener()
-
         self.label_amount = ""
 
         self.working_directory = ""
         self.file_list = []
 
         self.canvas = ""
+        self.image = ImageTk.PhotoImage(file='placeholder.jpg')
 
         self.initUI()
 
@@ -30,13 +29,11 @@ class GUI(Frame):
 
         self.parent.state('zoomed')
 
-        # Standard image
-        image = ImageTk.PhotoImage(file='placeholder.jpg')
-
         # CANVAS FOR THE IMAGES
-        self.canvas = Label(self, width=1280, height=720, image=image)
-        self.canvas.image = image
+        self.canvas = Canvas(self, width=1280, height=480)
         self.canvas.pack(fill=BOTH, expand=True)
+
+        self.showImage('placeholder.jpg')
 
         frame = Frame(self, relief=RAISED, borderwidth=1)
         frame.pack(fill=BOTH, expand=True)
@@ -104,7 +101,8 @@ class GUI(Frame):
         self.showImage(filename)
 
     def showImage(self, path):
-        image = ImageTk.PhotoImage(file=path)
-        self.canvas['image'] = image
-        self.canvas.image = image
+        photo = ImageTk.Image.open(path)
+        photo = photo.resize((1280, 720))
+        self.image = ImageTk.PhotoImage(photo)
+        self.canvas.create_image(0, 0, image=self.image, anchor="nw")
 
