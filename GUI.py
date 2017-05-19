@@ -3,9 +3,9 @@ from tkinter.filedialog import askdirectory
 
 from tkinter import messagebox
 
-
 from os import listdir
 
+from PIL import ImageTk
 
 class GUI(Frame):
     """This class will handle all the input and output to the GUI"""
@@ -19,12 +19,21 @@ class GUI(Frame):
         self.working_directory = ""
         self.file_list = []
 
+        self.canvas = ""
+        self.image = ImageTk.PhotoImage(file='placeholder.jpg')
+
         self.initUI()
 
     def initUI(self):
         self.parent.title("TensorFlow GUI")
 
         self.parent.state('zoomed')
+
+        # CANVAS FOR THE IMAGES
+        self.canvas = Canvas(self, width=1280, height=480)
+        self.canvas.pack(fill=BOTH, expand=True)
+
+        self.showImage('placeholder.jpg')
 
         frame = Frame(self, relief=RAISED, borderwidth=1)
         frame.pack(fill=BOTH, expand=True)
@@ -42,13 +51,14 @@ class GUI(Frame):
         self.label_amount = Label(self, text="", background="white")
         self.label_amount.pack(side=LEFT)
 
+
     def exitButton(self):
         Frame.quit(self)
         self.quit()
 
     def folderSelecter(self):
         self.working_directory = askdirectory(parent=self.parent,
-                                              initialdir=r"E:\testCaseSelector\30-01-2017 18-20\Color",
+                                              initialdir=r"E:\testCaseSelector\30-01-2017 18-20",
                                               title='Choose working directory')
         print(self.working_directory)
 
@@ -83,3 +93,16 @@ class GUI(Frame):
         self.label_amount['foreground'] = "black"
         self.label_amount['text'] = "{} JPG's in folder, {} already processed, {} left to process.".format(
             len(fileListRaw), len(found_files), len(self.file_list))
+
+        filename = self.working_directory + '/' + self.file_list[0]
+
+        print(filename)
+
+        self.showImage(filename)
+
+    def showImage(self, path):
+        photo = ImageTk.Image.open(path)
+        photo = photo.resize((1280, 720))
+        self.image = ImageTk.PhotoImage(photo)
+        self.canvas.create_image(0, 0, image=self.image, anchor="nw")
+
