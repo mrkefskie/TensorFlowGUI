@@ -29,6 +29,8 @@ class GUI(Frame):
 
         self.parent.state('zoomed')
 
+        self.current_file = 0
+
         # CANVAS FOR THE IMAGES
         self.canvas = Canvas(self, width=1280, height=480)
         self.canvas.pack(fill=BOTH, expand=True)
@@ -45,12 +47,27 @@ class GUI(Frame):
 
         # FOLDER SELECT BUTTON
         folderselectbutton = Button(self, text="Select folder", command=self.folderSelecter)
-        folderselectbutton.pack(side=RIGHT)
+        folderselectbutton.pack(side=RIGHT, padx=(100, 5))
+
+        # NEXT BUTTON
+        next_button = Button(self, text="Next", command=self.nextButton)
+        next_button.pack(side=RIGHT, padx=5)
+
+        # PREVIOUS BUTTON
+        prev_button = Button(self, text="Previous", command=self.prevButton)
+        prev_button.pack(side=RIGHT)
 
         # AMOUNT TO PROCESS LABEL
         self.label_amount = Label(self, text="", background="white")
         self.label_amount.pack(side=LEFT)
 
+    def nextButton(self):
+        self.current_file = self.current_file + 1
+        self.showImage(self.working_directory + '/' + self.file_list[self.current_file])
+
+    def prevButton(self):
+        self.current_file = self.current_file - 1
+        self.showImage(self.working_directory + '/' + self.file_list[self.current_file])
 
     def exitButton(self):
         Frame.quit(self)
@@ -65,7 +82,7 @@ class GUI(Frame):
         fileListRaw = [f for f in listdir(self.working_directory) if (f.endswith(".jpg") & f[0].isdigit())]
 
         if len(fileListRaw) > 0:  # Check if there are files in the directory
-            current_file = 0  # Set the current file to the first one
+            self.current_file = 0  # Set the current file to the first one
         else:
             # Display an error
             messagebox.showerror("Error", "Directory is empty")
@@ -73,7 +90,7 @@ class GUI(Frame):
             self.label_amount['foreground'] = "red"
             return
 
-        last_file = current_file
+        last_file = self.current_file
         found_files = []
 
         # Let's look for output that is already there, and remove all fields from the list we already got
@@ -94,7 +111,7 @@ class GUI(Frame):
         self.label_amount['text'] = "{} JPG's in folder, {} already processed, {} left to process.".format(
             len(fileListRaw), len(found_files), len(self.file_list))
 
-        filename = self.working_directory + '/' + self.file_list[0]
+        filename = self.working_directory + '/' + self.file_list[self.current_file]
 
         print(filename)
 
