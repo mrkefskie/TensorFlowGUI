@@ -13,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/TensorFlowGUI$TensorFlowGUI.coverage" NAME="TensorFlowGUI Coverage Results" MODIFIED="1495194398870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TensorFlowGUI$TensorFlowGUI.coverage" NAME="TensorFlowGUI Coverage Results" MODIFIED="1496825013475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
@@ -21,8 +21,8 @@
       <file leaf-file-name="TensorFlowGUI.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TensorFlowGUI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+            <state relative-caret-position="357">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -33,12 +33,22 @@
       <file leaf-file-name="GUI.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GUI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="61" column="41" lean-forward="true" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
+            <state relative-caret-position="753">
+              <caret line="152" column="0" lean-forward="true" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
-                <element signature="e#276#563#0" expanded="false" />
-                <element signature="e#2163#2199#0" expanded="false" />
+                <element signature="e#1166#2889#0" expanded="false" />
+                <element signature="e#2938#3097#0" expanded="false" />
+                <element signature="e#3142#3162#0" expanded="false" />
+                <element signature="e#3206#3226#0" expanded="false" />
+                <element signature="e#3270#3331#0" expanded="false" />
+                <element signature="e#3374#3598#0" expanded="false" />
+                <element signature="e#3644#3944#0" expanded="false" />
+                <element signature="e#3980#4000#0" expanded="false" />
+                <element signature="e#4036#4056#0" expanded="false" />
+                <element signature="e#4092#4128#0" expanded="false" />
+                <element signature="e#6419#6744#0" expanded="false" />
+                <element signature="e#6783#8602#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -92,8 +102,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -108,6 +116,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -322,7 +332,7 @@
     <frame x="1912" y="-8" width="1216" height="1906" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2067474" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14705883" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -332,7 +342,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26565143" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32656515" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -346,6 +356,16 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -353,7 +373,15 @@
           <value>
             <State>
               <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
+                <collection>
+                  <UserGroup>
+                    <option name="users">
+                      <list>
+                        <option value="me" />
+                      </list>
+                    </option>
+                  </UserGroup>
+                </collection>
               </option>
               <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
                 <collection />
@@ -377,11 +405,203 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/TensorFlowGUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3740">
+          <caret line="220" column="0" lean-forward="false" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#1166#2889#0" expanded="false" />
+            <element signature="e#2938#3097#0" expanded="false" />
+            <element signature="e#3142#3162#0" expanded="false" />
+            <element signature="e#3206#3226#0" expanded="false" />
+            <element signature="e#3270#3331#0" expanded="false" />
+            <element signature="e#3374#3598#0" expanded="false" />
+            <element signature="e#3644#3944#0" expanded="false" />
+            <element signature="e#3980#4000#0" expanded="false" />
+            <element signature="e#4036#4056#0" expanded="false" />
+            <element signature="e#4092#4128#0" expanded="false" />
+            <element signature="e#6419#6744#0" expanded="false" />
+            <element signature="e#6783#8602#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TensorFlowGUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1887">
+          <caret line="123" column="0" lean-forward="true" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#1166#2889#0" expanded="false" />
+            <element signature="e#2938#3097#0" expanded="false" />
+            <element signature="e#3142#3162#0" expanded="false" />
+            <element signature="e#3206#3226#0" expanded="false" />
+            <element signature="e#3270#3331#0" expanded="false" />
+            <element signature="e#3374#3598#0" expanded="false" />
+            <element signature="e#3644#3944#0" expanded="false" />
+            <element signature="e#3980#4000#0" expanded="false" />
+            <element signature="e#4036#4056#0" expanded="false" />
+            <element signature="e#4092#4128#0" expanded="false" />
+            <element signature="e#6419#6744#0" expanded="false" />
+            <element signature="e#6783#8602#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TensorFlowGUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3094">
+          <caret line="182" column="69" lean-forward="true" selection-start-line="182" selection-start-column="69" selection-end-line="182" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#1166#2889#0" expanded="false" />
+            <element signature="e#2938#3097#0" expanded="false" />
+            <element signature="e#3142#3162#0" expanded="false" />
+            <element signature="e#3206#3226#0" expanded="false" />
+            <element signature="e#3270#3331#0" expanded="false" />
+            <element signature="e#3374#3598#0" expanded="false" />
+            <element signature="e#3644#3944#0" expanded="false" />
+            <element signature="e#3980#4000#0" expanded="false" />
+            <element signature="e#4036#4056#0" expanded="false" />
+            <element signature="e#4092#4128#0" expanded="false" />
+            <element signature="e#6419#6744#0" expanded="false" />
+            <element signature="e#6783#8602#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TensorFlowGUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2397">
+          <caret line="198" column="0" lean-forward="true" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#1166#2889#0" expanded="false" />
+            <element signature="e#2938#3097#0" expanded="false" />
+            <element signature="e#3142#3162#0" expanded="false" />
+            <element signature="e#3206#3226#0" expanded="false" />
+            <element signature="e#3270#3331#0" expanded="false" />
+            <element signature="e#3374#3598#0" expanded="false" />
+            <element signature="e#3644#3944#0" expanded="false" />
+            <element signature="e#3980#4000#0" expanded="false" />
+            <element signature="e#4036#4056#0" expanded="false" />
+            <element signature="e#4092#4128#0" expanded="false" />
+            <element signature="e#6419#6744#0" expanded="false" />
+            <element signature="e#6783#8602#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TensorFlowGUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="84" column="71" lean-forward="false" selection-start-line="84" selection-start-column="71" selection-end-line="84" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#1166#2889#0" expanded="false" />
+            <element signature="e#2938#3097#0" expanded="false" />
+            <element signature="e#3142#3162#0" expanded="false" />
+            <element signature="e#3206#3226#0" expanded="false" />
+            <element signature="e#3270#3331#0" expanded="false" />
+            <element signature="e#3374#3598#0" expanded="false" />
+            <element signature="e#3644#3944#0" expanded="false" />
+            <element signature="e#3980#4000#0" expanded="false" />
+            <element signature="e#4036#4056#0" expanded="false" />
+            <element signature="e#4092#4128#0" expanded="false" />
+            <element signature="e#6419#6744#0" expanded="false" />
+            <element signature="e#6783#8602#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TensorFlowGUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="84" column="71" lean-forward="false" selection-start-line="84" selection-start-column="71" selection-end-line="84" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#1166#2889#0" expanded="false" />
+            <element signature="e#2938#3097#0" expanded="false" />
+            <element signature="e#3142#3162#0" expanded="false" />
+            <element signature="e#3206#3226#0" expanded="false" />
+            <element signature="e#3270#3331#0" expanded="false" />
+            <element signature="e#3374#3598#0" expanded="false" />
+            <element signature="e#3644#3944#0" expanded="false" />
+            <element signature="e#3980#4000#0" expanded="false" />
+            <element signature="e#4036#4056#0" expanded="false" />
+            <element signature="e#4092#4128#0" expanded="false" />
+            <element signature="e#6419#6744#0" expanded="false" />
+            <element signature="e#6783#8602#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TensorFlowGUI.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -398,8 +618,18 @@
           <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
-            <element signature="e#276#563#0" expanded="false" />
-            <element signature="e#2163#2199#0" expanded="false" />
+            <element signature="e#1166#2889#0" expanded="false" />
+            <element signature="e#2938#3097#0" expanded="false" />
+            <element signature="e#3142#3162#0" expanded="false" />
+            <element signature="e#3206#3226#0" expanded="false" />
+            <element signature="e#3270#3331#0" expanded="false" />
+            <element signature="e#3374#3598#0" expanded="false" />
+            <element signature="e#3644#3944#0" expanded="false" />
+            <element signature="e#3980#4000#0" expanded="false" />
+            <element signature="e#4036#4056#0" expanded="false" />
+            <element signature="e#4092#4128#0" expanded="false" />
+            <element signature="e#6419#6744#0" expanded="false" />
+            <element signature="e#6783#8602#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -412,8 +642,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TensorFlowGUI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        <state relative-caret-position="357">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
@@ -422,20 +652,30 @@
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/tkinter/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="3352" column="25" lean-forward="true" selection-start-line="3352" selection-start-column="25" selection-end-line="3352" selection-end-column="25" />
+        <state relative-caret-position="201">
+          <caret line="1329" column="0" lean-forward="false" selection-start-line="1329" selection-start-column="0" selection-end-line="1329" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GUI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="61" column="41" lean-forward="true" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
+        <state relative-caret-position="753">
+          <caret line="152" column="0" lean-forward="true" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
-            <element signature="e#276#563#0" expanded="false" />
-            <element signature="e#2163#2199#0" expanded="false" />
+            <element signature="e#1166#2889#0" expanded="false" />
+            <element signature="e#2938#3097#0" expanded="false" />
+            <element signature="e#3142#3162#0" expanded="false" />
+            <element signature="e#3206#3226#0" expanded="false" />
+            <element signature="e#3270#3331#0" expanded="false" />
+            <element signature="e#3374#3598#0" expanded="false" />
+            <element signature="e#3644#3944#0" expanded="false" />
+            <element signature="e#3980#4000#0" expanded="false" />
+            <element signature="e#4036#4056#0" expanded="false" />
+            <element signature="e#4092#4128#0" expanded="false" />
+            <element signature="e#6419#6744#0" expanded="false" />
+            <element signature="e#6783#8602#0" expanded="false" />
           </folding>
         </state>
       </provider>
